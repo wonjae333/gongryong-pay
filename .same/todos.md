@@ -35,13 +35,19 @@
 - [x] ✅ 원본 "공룡티켓" 브랜드로 복원 완료 (content-extraction.md 기준)
 - [x] 원본 디자인 및 컨텐츠 구조로 되돌림 (이모지 아이콘, 3단계 프로세스 추가)
 
-## Next Steps (in_progress)
+## Fixed Issues
+- [x] Fixed GitHub Pages base URL configuration (changed from /gongryong-pay/ to /gongryong-ticket/)
+- [x] Fixed React Router basename for GitHub Pages deployment
+- [x] Updated 404.html for proper SPA routing support
+- [x] Deployed corrected version to GitHub Pages
+
+## Next Steps
 - [ ] Create remaining service pages (정보이용료, 신용카드, 상품권, 콘텐츠이용료)
 - [ ] Build FAQ page with common questions
 - [ ] Create How-to-use page with step-by-step guides
 - [ ] Add Reviews page with more customer testimonials
 - [ ] Create Safety page with security information
-- [in_progress] Create Blog page with helpful articles (SEO 최적화 포함)
+- [x] Create Blog page with helpful articles (SEO 최적화 포함)
 
 ## Remaining Optional Tasks
 - [ ] Create Safety page with security information
