@@ -32,8 +32,10 @@ jobs:
       - name: Build
         run: bun run build
 
-      - name: Remove CNAME if exists
-        run: rm -f ./dist/CNAME
+      - name: Remove CNAME to disable custom domain
+        run: |
+          rm -f ./dist/CNAME
+          echo "Removed CNAME file to ensure GitHub Pages default domain"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
