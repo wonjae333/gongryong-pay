@@ -639,28 +639,6 @@ const Blog: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* SEO Meta Tags */}
-      <head>
-        <title>현금화 정보 블로그 | 공룡페이 - 소액결제, 신용카드, 상품권 현금화 가이드</title>
-        <meta name="description" content="현금화 서비스에 대한 전문적인 정보와 가이드를 제공합니다. 소액결제, 신용카드, 상품권, 정보이용료 현금화의 모든 것을 알아보세요." />
-        <meta name="keywords" content="현금화, 소액결제현금화, 신용카드현금화, 상품권현금화, 정보이용료현금화, 공룡페이, 현금화가이드" />
-        <meta property="og:title" content="현금화 정보 블로그 | 공룡페이" />
-        <meta property="og:description" content="현금화 서비스에 대한 전문적인 정보와 가이드를 제공합니다." />
-        <meta property="og:type" content="website" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Blog",
-            "name": "공룡페이 현금화 정보 블로그",
-            "description": "현금화 서비스에 대한 전문적인 정보와 가이드",
-            "url": "https://gongryongpay.com/blog",
-            "publisher": {
-              "@type": "Organization",
-              "name": "공룡페이"
-            }
-          })}
-        </script>
-      </head>
 
       {/* Hero Section */}
       <div className="bg-gradient-to-br from-green-600 via-green-700 to-teal-800 text-white py-16">
