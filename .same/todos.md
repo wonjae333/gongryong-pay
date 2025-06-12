@@ -40,6 +40,9 @@
 - [x] Fixed React Router basename for GitHub Pages deployment
 - [x] Updated 404.html for proper SPA routing support
 - [x] Deployed corrected version to GitHub Pages
+- [x] Fixed blank page issue by switching from BrowserRouter to HashRouter
+- [x] Added homepage field to package.json for proper GitHub Pages routing
+- [x] Removed unnecessary basename (HashRouter doesn't need it)
 
 ## Next Steps
 - [ ] Create remaining service pages (정보이용료, 신용카드, 상품권, 콘텐츠이용료)
